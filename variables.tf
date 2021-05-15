@@ -17,3 +17,9 @@ variable "db_write_capacity" {
   type    = number
   default = 1
 }
+
+
+variable "tf_key1" {
+  type = string
+  default = "tf_key1_default"
+}
